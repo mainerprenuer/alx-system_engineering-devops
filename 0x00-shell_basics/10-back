@@ -1,3 +1,2 @@
 #!/bin/bash
 cd ..
-echo "Changed directory to: $(pwd)"
