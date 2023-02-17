@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -a1p | sort -df | sed -e '1s/^/\.\/\n/' | sed -e '2s/^/\.\/\.\.\n/' | sed -e 's/[^\/]*$/&\//' | tr '\n' ',' | sed -e 's/,$/\n/'
